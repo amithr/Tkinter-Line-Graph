@@ -17,7 +17,6 @@ figure = plt.Figure(figsize=(5, 4), dpi=100)
 # Input is number of rows, number of cols, index position
 # Assumes a grid layout
 figure_plot = figure.add_subplot(1, 1, 1)
-figure_plot.set_xlabel('Years')
 figure_plot.set_ylabel('Unemployment Rate')
 # Place figure on main window
 line = FigureCanvasTkAgg(figure, main_window)
